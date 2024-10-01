@@ -1,21 +1,99 @@
-h1 {font-size: 200;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 300;
-    margin-top: 100;}
+
+
 body {
-    background: rgba(185, 28, 172, 0.959);     /* red, blue, yellow, etc */
-    color: rgb(17, 5, 17);             /* red, blue, yellow, etc */
-    font-size: 30px;        /* 0px - 100px and beyond */
-    font-weight: bold;   /* lighter, normal, bold  */
-    text-align: center;      /* left, center or right  */ 
-    margin-top: 25px;        /* From 0px and upwards   */
+    background: rgba(185, 28, 172, 0.959);     /* red, blue, yellow, */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p {font-family: 'Courier New', Courier, monospace;
-    font-size: smaller;
-    margin-left: auto; 
+
+p 
+{
+ margin-top: 10%;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#quiz {
+    max-width: 500px;
+    max-height: 500px;
+    background-color: rgb(230, 45, 147);
+    border-radius: 10%;
+    box-shadow: 0 0 10px yellow;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    font-display: swap;
+    margin-top: 10%;
+    text-align: center;
+    color:rgb(153, 4, 146)
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Full viewport height to center vertically */
+}
+
+.center {
+
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    box-shadow: 0 0 10px pink;
+}
+
+h2 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(153, 4, 146)
+}
+p { text-align: center;}
+
+
+#quiz-form {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-left: auto;
     margin-right: auto;
+    width: 600px;
+    background-color: blueviolet;
+    border-radius: .05%;
+    box-shadow: 0 0 10px rgb(53, 3, 40);
+
 
 }
 
-li {margin-left: auto; margin-right: auto;}
-a {font-family: 'Courier New', Courier, monospace;}
+body style {
+background-image: ('url(Colorful-Stars-Background.jpg)');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.button-containter {/* center and lift submit button and arrange more space for score */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    text-align: center;
+    display: block;
+    margin-left: 25%;
+    margin: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgb(179, 36, 143);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 300px;
+    color:pink;
+    cursor: pointer;}
+
+    button:hover {
+        background-color: whitesmoke;
+    }
+
+
+
+
+
+
